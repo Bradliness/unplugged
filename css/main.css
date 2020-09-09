@@ -94,17 +94,27 @@ header {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 15px 0;
 }
 
-.content-wrapper{
+header .content-wrapper{
+  width:89%;
+  margin:0px;
   display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
-
-header-nav{
+content-wrapper-h1{
   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+header-nav{
+  width: 60%;
+  display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
@@ -152,14 +162,23 @@ features-item-description{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin:15px;
 }
-
+.features p{
+  margin:0px;
+}
 .reviews{
   display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding:20px,0;
+  }
+
+.reviews h3{
+width:48%;
 }
+
 .mission{
   display: flex;
     justify-content: center;
@@ -170,6 +189,9 @@ footer {
   display: flex;
     justify-content: center;
     align-items: center;
+}
+footer p{
+  margin:0px;
 }
 
 .footer-content{
@@ -195,7 +217,9 @@ footer-social {
     align-items: center;
     flex-flow: row wrap;
   }
-.content-wrapper{
+footer .content-wrapper{
+  width: 55%;
+    margin: 50px 0;
   display: flex;
     justify-content: center;
     align-items: center;
