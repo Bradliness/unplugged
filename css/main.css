@@ -99,6 +99,7 @@ body {
   font-family: 'Open Sans', sans-serif;
        font-size: 1em;
        text-align: left;
+       color: #e2e3ed;
 
 }
 
@@ -115,12 +116,14 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-
+  font-weight: 500;
+    font-size: 1.875em;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   margin: 20px 0;
    font-size: 1.125em;
 }
@@ -147,10 +150,13 @@ font-style: normal;
     margin: 50px 0;
 }
 
+/* -------------------- Base Header - Footer Styles -------------------- */
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
-header {
+header,footer {
+   background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,6 +225,41 @@ footer .copyright {
   margin: 20px 0;
 }
 
+/* Aside */
+
+aside {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 
