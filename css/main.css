@@ -303,8 +303,14 @@ input[type=button] {
     flex-flow: row wrap;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+      }
+
 features h2 {
   margin-bottom: 60px;
+  margin-left:20px;
 }
 
 .features article {
@@ -322,8 +328,13 @@ features h2 {
 .features p {
   text-align: center;
   margin: 0;
+  margin-left:20px;
 }
 
+
+}
+
+Step 6: Explore Other Icon Options
 /*Reviews */
 
 ..reviews {
