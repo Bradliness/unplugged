@@ -240,7 +240,8 @@ footer .social-icons {
   display: flex;
   justify-content:space-around;
   align-items: center;
-  margin-left:35%
+  margin-left: auto;
+   margin-right: auto;
 }
 
 footer .social-icons p {
